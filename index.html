@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--COPYRIGHT KAMIL BANASZEK IG: _GAMBLING_MAN_-->
+
+  <title>Guess the harry song.</title>
+  <link rel="stylesheet" href="styl.css"> 
+  <script src="main.js"></script>
+  <script src="punky.js"></script>
+  <script src="timer.js"></script>
+  <script src="song.js"></script>
+  <script src="reset.js"></script>
+  <script src="songlist.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+
+
+
+</head>
+<body>
+  <div id="hide">
+  <div id="background-container">
+  <div id="all">
+      
+       <audio id="audioPlayer"></audio>
+
+  <div>
+    <div id="title" class="font-effect-neon"><h1>Guess the Harry song</h1> </div>
+ 
+
+    <div class="stats"><p id="zycia">Lives:  </p><div id="hf"></div></div>
+    <div class="stats" id="pp" style="background-color: yellow;"><p id="punkty">Points: 0 </p></div>
+    <div class="stats" id="cc"><p id="runda">Round: 0 </p></div>
+
+    <div id="btt">
+      <button id="check" onclick="checkAnswer()" style="display: none;">Check</button>
+      <button id="playb" onclick="startGame()">Start Game</button>
+    </div>
+    <div id="lvll">
+
+      <select id="difficulty" onchange="changeLevel()">
+        <option value="beg">Begginer 12s</option>
+        <option value="easy">Easy 5s</option>
+        <option value="medium">Medium 3s</option>
+        <option value="hard">Harries 1s</option>
+  
+      </select>
+    
+    </div>
+    
+
+      <p id="wk"></p>
+   
+    
+
+
+    <div id="answ">
+      <input type="text" id="answerInput" placeholder="type title">
+    </div>
+
+    
+  <div id="result"></div>
+
+  <div style="width: 100%; height: 80px;  justify-content: center;
+  align-items: center;
+  display: flex;">
+
+    <div id="timerBar">
+      <div id="timeRemaining"></div>
+    </div>
+
+</div>
+  
+
+  
+
+
+</div>
+</div>
+<div style="display: none;">
+  <audio id="no" src="songs/nope.ogg"></audio>
+  <audio id="ok"src="songs/ok.ogg"></audio>
+ </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+.stats
+{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(253, 207, 226);
+
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 30px;
+  
+  border: solid 1px black;
+  border-radius:  10px;
+  margin-top: 10px;
+  position: static;
+ 
+
+}
+#title
+{
+    width: 700px;
+    height: 100px;
+    background-color: rgb(208, 151, 223);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius:  10px;
+    margin-bottom: 50px;
+    position:static;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
+    font-family: "Sofia", sans-serif;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px #ababab;
+    
+}
+
+button
+{
+    cursor: pointer;
+    background-color: beige;
+    font-family: cursive;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: static;
+    
+}
+button:hover
+{
+    background-color: rgb(69, 0, 78);
+    color: white;
+}
+#btt
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+
+#answ
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+   
+}
+#answerInput
+{
+display: flex;
+display: none;
+
+width: 300px;
+height: 50px;
+
+
+border-radius: 10px;
+
+font-family: cursive;
+font-weight: bold;
+font-size: 20px;
+position: static;
+}
+
+#result
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-family: cursive;
+font-weight: bold;
+font-size: 25px;
+margin-top: 50px;
+color: rgb(255, 255, 255);
+
+height: 50px;
+    position: static;
+
+
+}
+
+#wk
+{
+    height: 50px;
+    position: static;
+   
+}
+
+#difficulty
+{
+    width: 200px;
+    height: 30px;
+
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+#hf
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#timerBar 
+{
+ 
+ height: 80px;
+ width: 100%;
+ transition: width 5s linear;
+ display: none;
+ border-radius: 10px;
+ position: relative;
+ border: 1px solid black;
+}
+
+#timeRemaining 
+{
+ position: absolute;
+ top: 50%;
+ left: 5px;
+ transform: translateY(-50%);
+ 
+ color: rgb(255, 255, 255);
+ font-family: 'Courier New', Courier, monospace;
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 25px;
+}
+
+#background-container::before 
+{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('harry.jpg');
+background-size: cover;
+background-position: center;
+filter: blur(9px);
+z-index: -1;
+
+}
+
+#all {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-image: url("tlo.png");
+    width: 65%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  
+
+html,
+body {
+margin: 0;
+padding: 0;
+margin-top: 0;
+font-family: cursive;
+
+
+}
+h1
+{
+margin-top: 0;
+}
+
+.max
+{
+   font-size: 40px;
+   font-weight: bold;
+   
+}
+
+.maxt
+{
+    font-size: 40px;
+    color:rgb(56, 5, 69);
+}
