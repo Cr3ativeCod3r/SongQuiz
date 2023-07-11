@@ -248,3 +248,48 @@ margin-top: 0;
     font-size: 40px;
     color:rgb(56, 5, 69);
 }
+
+@media (max-width: 1000px) 
+{
+   #all{
+   position:relative;
+    width:95%;
+    height:1300px;
+    margin-top:auto;
+    margin-right:50px;
+   
+   }
+   #title
+   {
+    
+    display:flex;
+    height:200px;
+    font-size:35px;
+    margin-left: 20px;
+    
+   }
+   .stats{
+    width:500px;height:100px;
+    font-size: 50px;
+   }
+   button
+   {
+     width:300px;height:100px;
+    font-size: 30px;
+   }
+   #difficulty
+   {
+     width:300px;height:50px;
+    font-size: 30px;
+   }
+   #all
+   {
+    background-image: url("mediaa.png");
+   }
+   #answerInput
+   {
+    width:500px;height:100px;
+    font-size: 40px;
+   }
+   
+ }
